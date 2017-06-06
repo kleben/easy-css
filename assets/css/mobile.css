@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+@media (max-width: 640px) {
+
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background: #f3e62c; }
+	.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar { background: #da1d1e; }
+	.navbar-default .navbar-toggle .icon-bar { background: #FFF ; }
+
+	.logo-mobile { padding: 0; padding-left: 0.8em; padding-top: 0.2em; width: 50%; }
+
+	.navbar-default .navbar-nav > li > a { color: #FFF; }
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:focus, 
+	.navbar-default .navbar-nav > .active > a:hover { background: #f3e62c !important; color: #000; }
+
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover { color: #f3e62c; }
+
+
+	.box-servicos { margin-top: 0; }
+
+
+	.box-contadores {  }
+	.box-contadores h2 { font-size: 4em; }
+	.box-contadores img { width: 60%; }
+	.box-contadores .contador-item {  }
+
+
+	.box-rodape { padding-top: 1em; }
+	.box-redes-sociais-rodape { padding-bottom: 0.5em; }
+	.box-redes-sociais-rodape img { width: 60%; }
+	.box-telefone-endereco-rodape { font-size: 0.8em; }
+
+	.copyright { font-size: 0.6em; }
+
+
+}

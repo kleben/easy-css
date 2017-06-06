@@ -1,0 +1,110 @@
+
+
+hr { border-color: #CCC; }
+.padding0 { padding: 0; }
+.cor-vermelha { color: #da1d1e; }
+.cor-branco { color: #FFF; }
+.background-vermelho-1 { background: #da1d1e; }
+.background-pontilhado { background: #f29400 url("../imagens/bg-pontilhado.png"); }
+.background-laranja { background-color: #f29400 !important; }
+.background-verde { background-color: #06a596 !important; }
+.background-azul { background-color: #00547a !important; }
+.background-roxo { background-color: #4c2f86 !important; }
+.background-vermelho-2 { background-color: #8b0e13 !important; }
+.degrade-vermelho {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6231f+0,8e1f18+100 */
+	background: #d6231f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d6231f 0%, #8e1f18 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d6231f 0%,#8e1f18 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d6231f 0%,#8e1f18 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6231f', endColorstr='#8e1f18',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+
+.box-telefone-redes-socias-topo { background: #FFF; color: #940e33; line-height: 3em; }
+.box-telefone-redes-socias-topo p { margin-bottom: 0; font-weight: bold; font-size: 1.2em; }
+.box-telefone-redes-socias-topo .icone-whatsapp { position: relative; top: -0.2em; }
+
+.barra-superior-vermelha { box-shadow: 0 3px 5px #333; padding-bottom: 1.5em; padding-top: 1.5em;  position: relative; z-index: 9; }
+
+
+.box-menu-topo { margin-bottom: 3em; }
+.box-menu-topo .navbar { margin: 0; }
+.box-menu-topo .active a { text-decoration: underline; text-decoration-color: #f3e62c; }
+.box-menu-topo .navbar a { color: #FFF; font-size: 1.3em; padding: 1em 0 1em 0; }
+.box-menu-topo .nav > li > a:focus, 
+.box-menu-topo .nav > li > a:hover { background: #f3e62c; color: black; }
+.box-menu-topo .dropdown-menu a { padding-left: 1em; padding-right: 1em; }
+.box-menu-topo .dropdown-menu a:focus,
+.box-menu-topo .dropdown-menu a:hover { background: #f3e62c; }
+
+
+.btn-portal-cliente { background: none !important; border: 1px solid #f3e62c; margin-top: 0.5em; padding-left: 10px !important; }
+.btn-portal-cliente:focus,
+.btn-portal-cliente:hover { border: 1px solid #da1d1e; background: #f3e62c !important; color: #000; }
+
+
+.box-banner-principal { margin-bottom: 2em; }
+
+
+.item-servico-home { margin-top: 2em; }
+.item-servico-home .item-servico-home-titulo {  }
+.item-servico-home .item-servico-home-titulo a { color: #FFF; font-size: 1.3em; padding: 0.5em 0 0.5em 0 !important; }
+
+
+.box-contadores { background: url("../imagens/bg-hexagonos.jpg") repeat top left; color: #FFF; font-size: 0.7em; text-align: center; padding-bottom: 4em; padding-top: 5em; }
+.box-contadores h2 { color: #FFF; font-size: 6em; margin-top: 0.2em; }
+/*.box-contadores .item-contador { border: 1px solid #000; border-radius: 5px; position: relative; z-index: 9; }*/
+/*.box-contadores .item-contador img { position: absolute; top: -3em; left: 5em; width: 35%; z-index: 99; }*/
+
+
+.box-rodape { border-top: 15px solid #da1d1e; margin-top: 3em; padding-top: 3em; }
+
+
+.box-redes-sociais-rodape { padding-bottom: 3em; }
+.box-redes-sociais-rodape a { float: left; margin: 0.5em; }
+
+
+.box-telefone-endereco-rodape {  }
+.box-telefone-endereco-rodape p { color: #FFF; font-size: 1.3em; }
+.box-telefone-endereco-rodape p span { color: #4f0818; font-size: 1.5em; position: relative; top: 0.3em; left: -0.2em; }
+
+
+.box-menu-rodape { border-top: 3em solid #8b0e13; }
+.box-menu-rodape a { color: #FFF; }
+.box-menu-rodape .navbar { margin: 0; }
+.box-menu-rodape .navbar a { font-size: 1.3em; }
+.copyright { margin-top: 1em; }
+
+
+
+/*###################################################################################################################*/
+
+.conteudo { font-size: 1.3em; }
+.conteudo h1 { color: #58585a; padding-left: 15px; text-align: left; }
+.conteudo img { margin-bottom: 1em; }
+
+
+.detalhe-servico-interna {  }
+.detalhe-servico-interna .btn { border-color: #000; margin-top: 2em; }
+.detalhe-servico-interna .btn span { font-size: 1.5em; }
+.detalhe-servico-interna .btn:focus,.detalhe-servico-interna .btn:hover { border: 1px solid #da1d1e; background: #f3e62c; color: #000; }
+
+.box-bullets-servicos { margin-bottom: 3em; margin-top: 3em; padding-bottom: 2em; padding-top: 2em; }
+.box-bullets-servicos ul li { color: #FFF; list-style-image: url(../imagens/bullet-vermelho.png); font-size: 1.2em; line-height: 2em; padding-left: 0.5em; }
+
+
+.box-servicos,
+.box-clientes { margin-bottom: 2em; margin-top: 2em; }
+
+.box-item-logo-cliente { margin-bottom: 2em; }
+.box-item-logo-cliente img { background: #FFF; border: 1px solid #CCC; border-radius: 5px; padding: 1em; max-height: 150px; }
+
+
+.colunas-quem-somos { color: #FFF;  padding: 1em; }
+
+
+
