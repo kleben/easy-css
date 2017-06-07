@@ -1,0 +1,6 @@
+
+h1, h2, h3, h5, h5, h5 { color: indianred; }
+
+.btn,
+.table-collapse-odd tbody tr:nth-of-type(odd) { background-color: indigo; color: #FFF; }
+.table-collapse-even tbody tr:nth-of-type(odd) { background-color: deeppink; color: #FFF; }
